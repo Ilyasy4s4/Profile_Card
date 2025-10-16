@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0a3d62, #1e90ff);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#profile-card {
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+
+#profile-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover; 
+  border-radius: 50%;
+  border: 3px solid #3ea6ff;
+  margin-bottom: 15px;
+}
+
+
+#profile-card h1 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+
+.role {
+  font-size: 0.95em;
+  color: #cde7ff;
+  margin-bottom: 25px;
+}
+
+
+.btn-primary, .btn-secondary {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin: 8px auto;
+  width: 80%;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+
+.btn-primary {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #3ea6ff;
+  transform: scale(1.05);
+}
+
+
+.btn-secondary {
+  background-color: #0a3d62;
+  color: #e0f7ff;
+}
+
+.btn-secondary:hover {
+  background-color: #145a8d;
+  transform: scale(1.05);
+}
